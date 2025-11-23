@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-7">
+    <title>Assignment 3 Ronja Grönborg</title>
+    <script src="ronjahelpfunctions.js"></script>
+    <script src="cat.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1><em>Uppgift 3 av Ronja Grönborg</em></h1>
+<!--uppgift 3 a-->
+<br><br>
+    <label>1. Skriv en text: </label><br>
+    <input type="text" id="textInput"> <br><br><br>
+
+    <label>2. Tecken att ta bort (max 3 st):</label> <br> 
+    <input type="text" id="charInput" maxlength="3">
+         <br><br><br>
+
+    <button onclick="runCharRemove()">Ta bort tecknet</button>
+
+    <br><br><br>
+    <h3>Resultat:</h3>
+    <p id="resultat"></p>
+    <br><br><br><br>
+
+<img src="HappyCatGif1.gif" width="200px" lenght="200px">
+<h4><em>Prova skriva "Happi Happi Happi!" i första rutan och "ppi" i det andra fältet<em></h4>
+
+<!--uppgift 3b-->
+
+<p>Tryck på knappen för att få info om katten:</p>
+<form> 
+    <button onclick="showCatInfo()" id="alertcat">Cat</button>
+</form>
+
+</body>
+</html>
